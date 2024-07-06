@@ -6,7 +6,9 @@ public class StringSorting_4 {
 
 	public static void ResultOfSorting(String name) {
 		char[] convert = name.toCharArray();
-		Arrays.sort(convert);
+		
+	
+		//Arrays.sort(convert);
 
 		for (char ch : convert) {
 			System.out.print(ch);
